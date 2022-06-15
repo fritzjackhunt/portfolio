@@ -9,11 +9,11 @@ const About = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-pink-600'>About</p>
                 </div>
                 <div></div>
-                <div className='max-w-[1000px] w-full sm:grid grid-cols-2 gap-8 px-4'>
+                <div className='max-w-[1000px] w-full sm:grid grid-cols-2 gap-8 px-4 text-xl'>
                     <p>Hi, I'm Aniekan, nice to meet you. Please take a look around</p>
                 </div>
                 <div>
-                    <p>
+                    <p className='text-xl'>
                     Tech guy. Programmer by education. Programmer by nature. Can be seen starting a new programming course online when not binging on anime and Netflix documentaries. Sub-culture junkie. Chicken and salad is a necessity. What is life without music?
                     </p>
                 </div>

@@ -8,6 +8,7 @@ import ReactImg from '../assets/react.png';
 import Tailwind from '../assets/tailwind.png';
 import Firebase from '../assets/firebase.png';
 import Github from '../assets/github.png';
+import Vercel from '../assets/vercel.png';
 
 const Skills = () => {
   return (
@@ -16,10 +17,10 @@ const Skills = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
-                <p className='py-4'>// These are the technologies I'm familiar with</p>
+                <p className='py-4 text-lg'>// These are the technologies I'm familiar with</p>
             </div>
 
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+            <div className='w-full grid grid-cols-2 pt-2 sm:grid-cols-4 gap-4 text-center py-8'>
 
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
@@ -54,6 +55,11 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Firebase} alt="HTML icon" />
                     <p className='my-4'>Firebase</p>
+                </div>
+
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Vercel} alt="HTML icon" />
+                    <p className='my-4'>Vercel</p>
                 </div>
             
             </div>
