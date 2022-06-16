@@ -7,6 +7,7 @@ import Work2 from '../assets/work1.png'
 import Work3 from '../assets/work2.png'
 import Work4 from '../assets/work3.png'
 import Work5 from '../assets/work4.png'
+import Work6 from '../assets/work5.png'
 
 const Work = () => {
   return (
@@ -130,13 +131,13 @@ const Work = () => {
                     </div>
                 </div>
                 <div 
-                style={{backgroundImage : `url(${WorkImg})`}} 
+                style={{backgroundImage : `url(${Work6})`}} 
                 className='shadow=lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* Hover Effect */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            JS Library
                         </span>
                         
                         <div className='pt-8 text-center'>
