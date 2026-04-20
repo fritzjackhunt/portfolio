@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg'
 import Work1 from '../assets/work.png'
 import Work2 from '../assets/work1.png'
 import Work3 from '../assets/work2.png'
