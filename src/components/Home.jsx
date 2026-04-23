@@ -12,6 +12,10 @@ const Home = () => {
             <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Full Stack Developer</h2>
             <p className='text-[#8892b0] py-4 max-w-[700px] text-2xl'>I'm a full-stack developer specializing in building (and occassionally designing) exceptional digital experiences. Currently, I'm focused on building responsive full-stack web applications</p>
 
+            <p className='text-[#8892b0] py-4 max-w-[700px] text-2xl'>
+                My mission is simple: build digital products that make people's lives easier. Whether it's streamlining business operations or creating delightful user experiences, I focus on the intersection of functionality and design. Every line of code I write is with the end user in mind.
+            </p>
+
             <div>
                 <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
                     View work 
